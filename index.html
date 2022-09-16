@@ -5,9 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-    <title>Document</title>
+    <title>Generador de Contraseñias</title>
 </head>
 <body>
+    <div class="contenedor">
+        <section class="seccion_contrasenia">
+            <p class="contrasenia_generada">Aca va la Contraseña</p>
+            <div class="botones">
+                <button class="boton_copiar"><i class="fa-regular fa-copy"></i></button>
+                <button class="boton_recargar"><i class="fa-solid fa-arrows-rotate"></i></button>
+            </div>
+        </section>
+
+        <section class="seccion_condiciones">
+            <div>
+                <h2>Longitud</h2>
+                <div>
+                    <input type="radio" name="caracteres" id="longitud_maxima"> 
+                    <label for="longitud_maxima" class="longitud_maxima">12 caracteres</label>
+                </div>
+                <div>
+                    <input type="radio" name="caracteres" id="longitud_media"> 
+                    <label for="longitud_media" class="longitud_media">9 caracteres</label>
+                </div>
+                <div>
+                    <input type="radio" name="caracteres" id="longitud_minima"> 
+                    <label for="longitud_minima" class="longitud_minima">6 caracteres</label>
+                </div>
+            </div>
+            <div>
+                <h2>Reglas</h2>
+                <div>
+                    <input type="radio" name="reglas" id="regla_letras"> 
+                    <label for="regla_letras" class="regla_letras">Solo letras</label>
+                </div>
+                <div>
+                    <input type="radio" name="reglas" id="regla_numeros"> 
+                    <label for="regla_numeros" class="regla_numeros">Solo numeros</label>
+                </div>
+                <div>
+                    <input type="radio" name="reglas" id="regla_todos"> 
+                    <label for="regla_todos" class="regla_todos">Todos los caracteres</label>
+                </div>
+            </div>
+            <div>
+                <h2>Caracteres</h2>
+                <div>
+                    <input type="checkbox" name="caracteres" id="caracteres_mayusculas"> 
+                    <label for="caracteres_mayusculas" class="caracteres_mayusculas">Mayusculas</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="caracteres" id="caracteres_minisculas"> 
+                    <label for="caracteres_minisculas" class="caracteres_minisculas">Minisculas</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="caracteres" id="caracteres_numericos"> 
+                    <label for="caracteres_numericos" class="caracteres_numericos">Numeros</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="caracteres" id="caracteres_simbolos"> 
+                    <label for="caracteres_simbolos" class="caracteres_simbolos">Simbolos</label>
+                </div>
+            </div>
+        </section>
+    </div>
     <script src="script/app.js"></script>
     
 </body>
