@@ -1,0 +1,28 @@
+body{
+    background-color: #9984D4;
+    margin: auto;
+    font-family:Arial, Helvetica, sans-serif
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.seccion_contrasenia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #CAA8F5;
+    width: 45%;
+    margin: 10% 0% 2% 0%; 
+    padding: 2% 0% 2% 0%;
+    border-radius: 15px;
+}
+.seccion_condiciones{
+    display: flex;
+    justify-content: space-around;
+    background-color: #CAA8F5;
+    width:45%;
+    padding: 2% 0% 2% 0%;
+    border-radius: 15px;
+}
