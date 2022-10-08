@@ -9,6 +9,6 @@
 ![proyecto](/img/proyecto-ambos.png)
 
 > El proyecto cuenta con tecnologias como HTML5, CSS y JavaScript.  
-> El usuario puede generar una contraseña segun sus preferencias como la **Longitud* y los **Caracteres* que desea implementar (Numeros, Simbolos, Mayusculas, Minusculas).
+> El usuario puede generar una contraseña segun sus preferencias como la *Longitud* y los *Caracteres* que desea implementar (Numeros, Simbolos, Mayusculas, Minusculas).
 
 [VER ACA](https://isabelalvarado21.github.io/generadorDeContrasenia/)
