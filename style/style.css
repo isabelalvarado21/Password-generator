@@ -1,7 +1,7 @@
 body{
-    background-color: #9984D4;
+    background-color: #9dd5f3;
     margin: auto;
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 .contenedor{
     display: flex;
@@ -12,17 +12,103 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #CAA8F5;
+    background-color:#C1DFF0;
     width: 45%;
-    margin: 10% 0% 2% 0%; 
+    margin: 1% 0% 2% 0%; 
     padding: 2% 0% 2% 0%;
     border-radius: 15px;
+}
+.h1{
+    padding-top: 10%;
+    color:#3f3f3f;
+}
+p{
+    font-size:x-large;
+    width: 40%;
+    padding: 2%;
+    margin: 0%;
+}
+.borde{
+    border: none;
+    background-color: #C1DFF0;
+}
+.icono-btn{
+    font-size: 30px;
+    padding: 5px;
 }
 .seccion_condiciones{
     display: flex;
     justify-content: space-around;
-    background-color: #CAA8F5;
+    background-color: #C1DFF0;
     width:45%;
     padding: 2% 0% 2% 0%;
     border-radius: 15px;
+    
+}
+h2{
+    color:  #3f3f3f;
+}
+
+/* */
+
+@media screen and (min-width: 768px) and (max-width:1024px){
+    .seccion_contrasenia{
+        width: 70%;
+    }
+    .seccion_condiciones{
+        width: 70%;
+    }
+
+}
+@media screen and (min-width: 480px) and (max-width:767px) {
+    .seccion_contrasenia{
+        width: 90%;
+    }
+    .seccion_condiciones{
+        width: 90%;
+    }
+    }
+
+@media screen and (min-width: 320px) and (max-width:479px) {
+    .seccion_contrasenia{
+        width: 83%;
+        padding: 6% 0%;
+    }
+    h1{
+        text-align: center;
+    }
+    .texto{
+        font-size:large;
+    }
+    .icono-btn{
+        font-size: 22px;
+        padding: 0px;
+    }
+   .seccion_condiciones{
+        display: flex;
+        flex-direction: column;
+        width: 83%;
+   } 
+}
+@media screen and (max-width: 319px){
+    .seccion_contrasenia{
+        width: 70%;
+        padding: 8% 0%;
+    }
+    h1{
+        text-align: center;
+    }
+    .texto{
+        font-size: 12px;
+    }
+    .icono-btn{
+        font-size: 19px;
+        padding: 0px;
+    }
+   .seccion_condiciones{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+   }
+
 }

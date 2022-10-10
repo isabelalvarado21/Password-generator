@@ -5,32 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Generador de Contraseñias</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Generador de Contraseñas</title>
 </head>
 <body>
     <div class="contenedor">
-        <section class="seccion_contrasenia">
-            <p class="contrasenia_generada " id="textoCopiado"></p>
+        <div class="titulo">
+            <h1 class="h1">Generador de Contraseñas</h1>
+        </div>
+        <div class="seccion_contrasenia">
+            <p class="contrasenia_generada texto" id="textoCopiado"></p>
             <div class="botones">
-                <button class="boton_copiar"><i class="fa-regular fa-copy"></i></button>
-                <button class="boton_recargar"><i class="fa-solid fa-arrows-rotate"></i></button>
+                <button class="boton_copiar borde"><i class="fa-regular fa-copy icono-btn"></i></button>
+                <button class="boton_recargar borde"><i class="fa-solid fa-arrows-rotate icono-btn"></i></button>
             </div>
-        </section>
+        </div>
 
-        <section class="seccion_condiciones">
+        <div class="seccion_condiciones">
             <div>
                 <h2>Longitud</h2>
                 <div>
-                    <input type="radio" name="caracteres" id="longitud_maxima"> 
+                    <input type="radio" name="caracteres" id="longitud_maxima" value="12"> 
                     <label for="longitud_maxima" class="longitud_maxima">12 caracteres</label>
                 </div>
                 <div>
-                    <input type="radio" name="caracteres" id="longitud_media"> 
+                    <input type="radio" name="caracteres" id="longitud_media" value="9"> 
                     <label for="longitud_media" class="longitud_media">9 caracteres</label>
                 </div>
                 <div>
-                    <input type="radio" name="caracteres" id="longitud_minima"> 
+                    <input type="radio" name="caracteres" id="longitud_minima" value="6"> 
                     <label for="longitud_minima" class="longitud_minima">6 caracteres</label>
                 </div>
             </div>
@@ -56,8 +59,8 @@
                     <label for="caracteres_mayusculas" class="caracteres_mayusculas">Mayusculas</label>
                 </div>
                 <div>
-                    <input type="checkbox" name="caracteres" id="caracteres_minisculas"> 
-                    <label for="caracteres_minisculas" class="caracteres_minisculas">Minisculas</label>
+                    <input type="checkbox" name="caracteres" id="caracteres_minusculas"> 
+                    <label for="caracteres_minusculas" class="caracteres_minusculas">Minusculas</label>
                 </div>
                 <div>
                     <input type="checkbox" name="caracteres" id="caracteres_numericos"> 
@@ -68,7 +71,7 @@
                     <label for="caracteres_simbolos" class="caracteres_simbolos">Simbolos</label>
                 </div>
             </div>
-        </section>
+        </div>
     </div>
 
     
